@@ -19,6 +19,7 @@ public class JavaTest {
 		
 		System.out.println("git 쉽지 않죠?");
 		System.out.println("git 열심히해야한다.");
+		System.out.println("git ㅎㅇㅌ.");
 		
 		
 		
