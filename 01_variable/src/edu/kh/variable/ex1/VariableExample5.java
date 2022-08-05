@@ -52,6 +52,8 @@ public class VariableExample5 {
 		
 		System.out.printf("줄 바꼇나요??");
 		
+		System.out.println("내가 추가한 내용");
+		
 		
 	}
 }
