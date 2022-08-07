@@ -58,7 +58,6 @@ public class VariableExample5 {
 		System.out.println("새로운 코드");
 		int aaa = 10;
 		
-		zxczxc
 		
 		
 		
