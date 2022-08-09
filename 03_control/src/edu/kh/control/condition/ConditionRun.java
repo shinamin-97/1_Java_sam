@@ -1,5 +1,7 @@
 package edu.kh.control.condition;
 
+import java.util.Scanner;
+
 // 코드를 실행시키는 부분(시키는 사람)
 
 public class ConditionRun {
@@ -13,7 +15,31 @@ public class ConditionRun {
 //		ex.test2();
 	
 //	    ex.ex1();
-	    ex.ex2();
-	   
+//	    ex.ex2();
+//	    ex.ex3();
+//		ex.ex4();
+//	    ex.ex5();
+	
+
+		
+		SwitchExample switchEx = new SwitchExample();
+		
+//		switchEx.ex1();
+//		switchEx.ex2();
+//		switchEx.ex3();
+//		switchEx.ex4();
+//		switchEx.ex5();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
+
+
