@@ -7,11 +7,11 @@ public class ConditionPractice {
 	public void practice1(){
 		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("숫자를 한 개 입력하세여 : ");
 		int input = sc.nextInt();
 		
 		String result;
-		
 		
 		if(input > 0 && input % 2 == 0) {
 			result = "짝수 입니다.";
