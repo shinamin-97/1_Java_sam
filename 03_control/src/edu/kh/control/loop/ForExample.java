@@ -402,6 +402,7 @@ public class ForExample {
 		}
 		
 }
+
 	
 	public void ex16() {
 		
@@ -436,7 +437,7 @@ public class ForExample {
 		
 		// 1부터 20사이의 3의 배수의 개수 출력
 		
-		// ex) e 6 9 12 15 18
+		// ex) 3 6 9 12 15 18
 		// sum :
 		// count : 6
 		

@@ -134,20 +134,58 @@ public class LoopPractice {
 	
 	public void practice7 ( ) {
 		
+		Scanner sc = new Scanner(System.in);
 		
+		System.out.print(" 정수 입력 : ");
+		int input = sc.nextInt();
 		
+		for(int x = 1 ; x <= input ; x++) {
+			
+			for(int i = 1; i <= x ; i++) {
+				System.out.print("*");
+				
+			}
+			
+		System.out.println();
+		}
+ }
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-		
-	}
-	
+		public void practice8 ( ) {
+			
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.print(" 정수 입력 : ");
+			int input = sc.nextInt();
+			
+			for(int x = input ; x >= 1 ; x--) {
+				
+				for(int i = x ; i >= 1 ; i--) {
+					
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+		}
+			public void practice13 ( ) {
+				
+			
+				
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.print(" 자연수 하나를 입력 하세요. : ");
+			int input = sc.nextInt();
+			
+			int count = 0;
+			
+			for(int i = 1 ; i <= input ; i++ ) {
+			
+			if(i % 2 == 0 || i % 3 == 0) {
+				System.out.print(i + " ");
+								
+				}
+			
+			}
+			System.out.println();
 
+}
+}

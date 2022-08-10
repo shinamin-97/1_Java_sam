@@ -11,7 +11,9 @@ public class LoopPracticeRun {
 //		LP.practice3();
 //		LP.practice4();
 //		LP.practice5();
-		LP.practice6();
+//		LP.practice6();
+//		LP.practice7();
+		LP.practice13();
 		
 	}
 }
