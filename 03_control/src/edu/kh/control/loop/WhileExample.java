@@ -227,28 +227,7 @@ public class WhileExample {
 		   System.out.println("현재 누적 값 : " + sum);
 		   
 		} while( input != 0 );
-		
-		
-		
-		
-		
-		
-		
+	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
