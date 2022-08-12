@@ -215,40 +215,82 @@ public class BranchExample {
 		   // 졌습니다ㅠㅠ
 		   // 현재 기록 : 1승 1무 1패
 		
-		
-		int ran = (int)(Math.random() * 3) ;
-		
-		System.out.println(ran);
-		
 		Scanner sc = new Scanner(System.in);
 		
-		int count = 1;
+		System.out.println("몇판? ");
+		int round = sc.nextInt();
 		
-		String input = sc.nextLine();
+		// 승, 무, 패 를 기록한 변수 선언 및 0으로 초기화
+		int win =0;
+		int draw = 0;
+		int lose = 0;
 		
-		while(true) {
-			System.out.println(count +1 + "번째 게임");
-			int num = sc.nextInt();
+		for (int i = 1 ; i <= round ; i++) {
 			
-			System.out.println("가위/바위/보 중 하나를 입력 해주세요 : " + num);
+			System.out.println("\n" + i + "번째 게임");
 			
-			String input = sc.nextLine();	
+			System.out.print("가위/바위/보 중 하나를 입력 해주세요 : ");			
+			String player = sc.next();
 			
-			if(num == ran) { 
-				System.out.println("비겼습니다");
+			// 컴퓨터 가위, 바위, 보 지정
+			int ran = (int)(Math.random() * 3) ; // 0 1 2
 			
-			} else if(num > ran)
+			String com = null; // String의 기본 값
+			// null : 없다(비슷)
+			
+			switch(ran) {
+			
+			case 0 : com = "가위"; break;
+			case 1 : com = "바위"; break;
+			case 2 : com = "보"; break;
+			}
+			
+			System.out.printf("컴퓨터는 [%s]를 선택했습니다. \n", com);
 			
 			
-			count++;
+			// 사용자와 컴퓨터 가위 바위 보 승패 판별
+			
+			if(player.equals(com) ) {
+				System.out.println("비겼습니다.");
+				draw++;
+				
+			} else {
+				
+				// 사용자 - 컴퓨터
+				//  가위     보
+				//  바위    가위
+ 				//  보      바위
+				
+				boolean win1 = player.equals("가위") && com.equals("보");
+				boolean win2 = player.equals("바위") && com.equals("가위");
+				boolean win3 = player.equals("보") && com.equals("바위");
+			
+			
+			
+				if(win1 || win2 || win3) { // 이기는 경우
+					System.out.println("플레이어 승!");
+					win++;
+					
+				} else { // 지는 경우
+					System.out.println("졌습니다.");
+					lose++;
+					
+				}
+			
+			
+			}
+			
+			System.out.printf("현재 기록 : %d승 %d무 %d패 \n", win, draw, lose);
+		
+		
 		}
 		
 		
 		
-		
-		
-		
 	}
+		
+		
+
 	
 	
 	
