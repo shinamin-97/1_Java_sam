@@ -291,16 +291,17 @@ public class ForExample {
 		// 12345
 		// 12345
 		// 12345
-		// 12345
+		
 		
 		for(int x = 1; x <= 4; x++) {
+			for(int i = 1 ; i <=5 ; i++ ) {
+				System.out.print(i);
 			
 		}
+			System.out.println();
 		
-		for(int i = 1 ; i <=5 ; i ++ ) {
-			System.out.print(i);
 		}
-		System.out.println();
+		
 	}
 	
 	

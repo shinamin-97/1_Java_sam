@@ -174,7 +174,7 @@ public class ArrayExample {
 		
 		//ArrayIndexOutOfBoundsException : 배열 인덱스 초과
 		
-		for(int i = 0 ; i < arr.length ; i++) {
+		for(int i = 1 ; i < arr.length ; i++) {
 			System.out.println(arr[i]);
 		}
 		
