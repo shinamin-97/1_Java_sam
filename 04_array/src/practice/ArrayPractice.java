@@ -153,6 +153,54 @@ import java.util.Scanner;
 
 		}
 		
+		public void practice6() {
+			
+			Scanner sc = new Scanner(System.in);
+			System.out.print("정수 입력 : ");
+			int sum = 0;
+			int[] arr = new int[sc.nextInt()];
+			 for(int i = 0 ; i < arr.length ; i++ ) {
+				 
+				 System.out.print(i + "번째 인덱스에 넣을 값 : ");
+				 int x = sc.nextInt();
+				 
+				 sum+= x; 
+			 }
+			 	
+				System.out.println(sum);
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	
 

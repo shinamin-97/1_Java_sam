@@ -166,9 +166,10 @@ public class UserView {
 			int age = sc.nextInt();
 			
 			System.out.println("수정할 성별(M/F) : ");
-			char ch =sc.next().charAt(0);
+			char ch = sc.next().charAt(0);
 			
-			service.updateUser(name, age, gender, loginUser);
+			
+			
 					
 			
 
