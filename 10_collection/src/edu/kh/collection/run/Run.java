@@ -12,7 +12,7 @@ public class Run {
 		
 //		service1.ex1();
 		
-//		new StudentView().displayMenu(); // 객체의 1회성 사용
+		new StudentView().displayMenu(); // 객체의 1회성 사용
 		
 		SetService service2 = new SetService();
 //		service2.ex1();
@@ -22,7 +22,7 @@ public class Run {
 		MapService service3 = new MapService();
 //		service3.ex1();
 //		service3.ex2();
-		service3.ex3();
+//		service3.ex3();
 		
 	}
 

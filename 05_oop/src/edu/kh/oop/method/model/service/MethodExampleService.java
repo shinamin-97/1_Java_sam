@@ -21,7 +21,7 @@ public class MethodExampleService {
 	}
 	
 	// 2. 매개변수 O, 반환형 X 인 메서드
-	public void method2(int num1, int num2,  int num3) {
+	public void method2(int num1, int num2, int num3) {
 		// 3개의 변수를 전달 받는 메서드
 		
 		System.out.println("num1 : " + num1);
@@ -65,48 +65,14 @@ public class MethodExampleService {
 		
 		case "+" : result = num1 + num2; break;
 		case "-" : result = num1 - num2; break;
-		case "*" : result = num1 * num2; break;
-		
-		case "/" : result = num1 / (double)num2; break;
-		
+		case "*" : result = num1 * num2; break;		
+		case "/" : result = num1 / (double)num2; break;		
 		case "%" : result = num1 % num2; break;
 		
 		}
 		
 		return result;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 }

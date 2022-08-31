@@ -2,7 +2,7 @@ package edu.kh.oop.constructor.model.vo;
 
 public class Member {
 	
-	// 추상화 -> 아이디,,비밀번호, 전화번호, 나이
+	// 추상화 -> 아이디, 비밀번호, 전화번호, 나이
 	
 	// 캡슐화 -> 추상화 결과를 묶고, 데이터 직접 접근 제한
 	
@@ -31,7 +31,7 @@ public class Member {
 		System.out.println("Member 객체가 생성 되었습니다.");
 		
 		// 한번 만들어둔 생성자를 계속 재사용
-		// -> 코드킬이 감소, 재사용성 증가
+		// -> 코드길이 감소, 재사용성 증가
 		
 	}
 	
@@ -93,7 +93,7 @@ public class Member {
 	 
 	public Member(int memberAge, String memberPhone) {
 		
-		// 전달 받은 매개변술 현재 객체 필드 초기화
+		// 전달 받은 매개변수 현재 객체 필드 초기화
 		this.memberAge = memberAge;
 		this.memberPhone = memberPhone;
 		
@@ -103,7 +103,7 @@ public class Member {
 		
 		 this(memberAge, memberPhone); // this() 생성자 호출
 
-		// 전달 받은 매개변술 현재 객체 필드 초기화
+		// 전달 받은 매개변수 현재 객체 필드 초기화
 		this.memberId = memberId;
 		
 	 }

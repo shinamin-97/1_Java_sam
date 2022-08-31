@@ -116,7 +116,7 @@ public class StudentView {
 	 * 2. 학생 전체 조회
 	 */
 	
-	private void selectAll() {
+	public void selectAll() {
 		
 		List<Student> stdList = service.getStdList();
 		

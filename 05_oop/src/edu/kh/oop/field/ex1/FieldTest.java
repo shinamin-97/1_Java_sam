@@ -30,7 +30,8 @@ public class FieldTest {
 			  int v3 = 30; // (default)
     private	  int v4 = 40;
 
-    public void ex() {
+    public void ex() { 
+    	
     	System.out.println("같은 클래스 내부 직접 접근");
     	System.out.println(v1);
     	System.out.println(v2);

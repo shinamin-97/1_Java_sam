@@ -38,7 +38,7 @@ public class UserService {
 			// id / pw 비교
 			if(user.getUserId().equals(id) && user.getUserPw().equals(pw)) {
 				// id, pw 같음 == 로그인 성공
-				return -1;
+				return 1;
 			}else {
 				// 하나라도 다름 == 로그인 실패
 				return 0;

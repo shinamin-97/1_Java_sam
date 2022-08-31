@@ -51,8 +51,7 @@ public class MethodExampleView {
 			// method3() 호출 후 String 값을 반환 받음
 			// 그 값을 result 변수에 저장
 			
-			System.out.println(result);
-			 break;
+					 System.out.println(result); break;
 			 
 			case 4 : menu4(); break;
 			

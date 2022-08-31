@@ -23,7 +23,7 @@ public class ConstructorRun {
 		Member member5 = new Member("member22", "pass22@", "01046093721", 26);
 									// -> 전달인자, 인자(Argument)
 		
-		Member member6 = new Member("신아민", "김지수", "01083734736", 26);
+		Member member6 = new Member("신아민", "신아엘", "01083734736", 26);
 		
 		Member member7 = new Member("신정훈", "나희숙", "01095693721", 57);
 		
