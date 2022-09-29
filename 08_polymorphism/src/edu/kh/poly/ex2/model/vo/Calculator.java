@@ -13,7 +13,7 @@ public interface Calculator {
 	
 	public abstract int plus(int num1, int num2); // 더하기
 	
-	abstract int minus(int num1, int num2); // 뺴기
+	int minus(int num1, int num2); // 뺴기
 	
 	abstract int multiple(int num1, int num2); // 곱하기
 	
